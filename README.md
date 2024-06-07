@@ -13,7 +13,7 @@ Successful matching candidates are marked in green, and failed ones are marked i
 
 ## Preparation
 
-To begin, download the four sequences from the RobotCar dataset as a demonstration through [this link](https://example.com/path/to/file.zip](https://1drv.ms/u/c/15abfec70c0a221d/EUYaPfXNdjlClfQocYsrEb0BbB59MK_Tgy_YnZuTvRDAYg)). If you require all the sequences, please refer to the benchmark established in the [PointNetVLAD](https://github.com/mikacuy/pointnetvlad?tab=readme-ov-file). 
+To begin, download the four sequences from the RobotCar dataset as a demonstration through [this link]([https://example.com/path/to/file.zip](https://1drv.ms/u/c/15abfec70c0a221d/EUYaPfXNdjlClfQocYsrEb0BbB59MK_Tgy_YnZuTvRDAYg)](https://1drv.ms/u/c/15abfec70c0a221d/EUYaPfXNdjlClfQocYsrEb0BbB59MK_Tgy_YnZuTvRDAYg)). If you require all the sequences, please refer to the benchmark established in the [PointNetVLAD](https://github.com/mikacuy/pointnetvlad?tab=readme-ov-file). 
 
 After downloading the four sequences, place the "RobotCar_samples" folder in the root directory of the project.
 
