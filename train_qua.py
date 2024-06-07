@@ -96,7 +96,7 @@ def evaluate(test_dataset, database_dataset, net, epoch, device):
 
 def main():
     #select GPU
-    os.environ["CUDA_VISIBLE_DEVICES"] = '4,5'
+    os.environ["CUDA_VISIBLE_DEVICES"] = '0,1'
     device = torch.device("cuda:0")
     writer = SummaryWriter(os.path.join(Dir,'log'))
     
