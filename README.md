@@ -26,7 +26,7 @@ python generating_test_sets.py
 ```
 ## Train
 
-During the training process, we typically use multi-GPU training by default, employing the nn.DataParallel. However, if you only have a single GPU available, you'll need to modify the corresponding parts of the code accordingly. The trained parameters from our experiments are saved in the file "weights2/tmp_9_22_best/weight_best.pth". The training command is as follows:
+During the training process, we typically use multi-GPU training by default, employing the nn.DataParallel. However, if you only have a single GPU available, you'll need to modify the corresponding parts of the code accordingly. The trained parameters from our experiments are saved in the file ["weights2/tmp_9_22_best/weight_best.pth"](https://github.com/Bryan-ZhengRui/LocFuse/tree/main/weights2/tmp_9_22_best). The training command is as follows:
 
 ```
 python train_qua.py
