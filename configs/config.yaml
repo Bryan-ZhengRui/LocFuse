@@ -1,0 +1,15 @@
+#picklefile path:
+Robotcar:
+    train_pickle_path_raw: 'generating_queries/training_queries_rob_cut.pickle'
+    test_database_pickle_path: 'generating_queries/oxford_evaluation_database_cut.pickle'
+    test_query_pickle_path: 'generating_queries/oxford_evaluation_query_cut.pickle'
+
+
+Kitti:
+    train_pickle_path: 'generating_queries/kitti_train_30overlap_new.pickle'
+
+    
+
+
+Experiments:
+    lr: 
