@@ -1,3 +1,3 @@
 # LocFuse （Pytorch）
 
-![LocFuse overview](Network_overview.pdf)
+![LocFuse overview](Locfuse.png)
