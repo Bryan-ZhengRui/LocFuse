@@ -19,5 +19,23 @@ After downloading the four sequences, place the "RobotCar_samples" folder in the
 
 Once the dataset files are in place, run the generate_training_tuples.py and generating_test_sets.py scripts in the "generating_queries" folder to obtain the .pickle files required for training and testing.
 
-`cd generating_queries` 
-`python generate_training_tuples.py`
+```
+cd generating_queries
+python generate_training_tuples.py
+python generating_test_sets.py
+```
+## Train
+
+During the training process, we typically use multi-GPU training by default, employing the nn.DataParallel. However, if you only have a single GPU available, you'll need to modify the corresponding parts of the code accordingly. The trained parameters from our experiments are saved in the file "weights2/tmp_9_22_best/weight_best.pth". The training command is as follows:
+
+```
+python train_qua.py
+```
+
+## Test
+
+During the testing process, we default to importing the parameters from the file "weights2/tmp_9_22_best/weight_best.pth". You can modify the import path of the parameters as needed. The testing command is as follows:
+
+```
+python test.py
+```
