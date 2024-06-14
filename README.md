@@ -9,7 +9,7 @@ The following is our dual-modal descriptor generation network LocFuse, which is 
 
 Successful matching candidates are marked in green, and failed ones are marked in red. 
 
-![Our Demo](demo_locfuse.gif)
+![Our Demo](demo_locfuse_V1.gif)
 
 ## Preparation
 
